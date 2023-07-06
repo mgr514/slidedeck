@@ -1,0 +1,89 @@
+html {
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=996&t=st=1688623433~exp=1688624033~hmac=220d0701a022817bf6164ccfd2be3fd3184c0c7cbbe7f5f030c4618654b8bd9e");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+}
+
+nav{
+  positin: sticky;
+  background: #000;
+  padding: 1% 0;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  padding:5%;
+}
+nav a:hover{
+  color: aqua;
+}
+
+header{
+  text-align: center;
+  font-weight: bolder;
+}
+
+header,
+section,
+footer{
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 10% 5%;
+  text-align: center;
+  
+}
+
+img {
+  width: 50%;
+  min-width: 200px;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.more-me img {
+  border: 3px solid black;
+}
+
+.about-me img {
+  border-radius: 50%;
+  border: 2px solid navy;
+}
+.me{
+  float: right;
+  margin: 5px;
+}
+
+h3,
+p{
+  background-color: rgba(245, 177, 252, 0.4);
+}
+
+
+.star{
+  min-width:5px;
+  max-width: 20px;
+  margin:5px 5px 0px 5px;
+}
+
+footer{
+  background-color: rgba(245, 177, 252, 0.4);
+  text-align: center;
+}
+
+a:hover {
+  color: purple;
+}
